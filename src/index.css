@@ -1,0 +1,17 @@
+.pointer{
+    cursor: pointer;
+}
+
+.color{
+    cursor: pointer;
+    -webkit-box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.8);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.8);
+}
+
+.extra{
+    height: 80px;
+}
+
+.accordion-button::after {
+   filter: invert(1);
+}
