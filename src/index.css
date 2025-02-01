@@ -15,3 +15,12 @@
 .accordion-button::after {
    filter: invert(1);
 }
+
+@media (max-width: 991px){
+    .color {
+        display: inline-flex;
+        padding: 2px !important;
+        width: 30px;
+        height: 30px;
+    }
+}
